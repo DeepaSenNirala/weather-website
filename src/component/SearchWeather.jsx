@@ -3,7 +3,7 @@ import '../App.css'
 const SearchWeather = () => {
   const[search,setSearch]=useState("london")
   const[coord,setdata]=useState([])
-  const[input,setinput]=useState("")
+  const[input,setinput]=useState("");
   let componentMounted=true;
   useEffect(()=>{
       const fetchWeather=async()=>{
